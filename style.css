@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.no-decoration{
+    text-decoration: none;
+}
+.no-decoration:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.img{
+    display: flex;
+     justify-content: space-around;
+}
+@media screen and (max-width: 800px){
+    .img{
+        width: 800px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap !important;
+    }
+}
